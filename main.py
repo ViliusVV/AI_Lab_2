@@ -15,6 +15,7 @@ if __name__ == "__main__":
     plt.show()
 
     L = sun_data.shape[0]
-    P = [ sun_data.Dėmės[0:L - 1], sun_data.Dėmės[1:L] ]
+    P = [ sun_data.Dėmės[0:L - 1], sun_data.Dėmės[1:L]]
+
     print(P)
 
